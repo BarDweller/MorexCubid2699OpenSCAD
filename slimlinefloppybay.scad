@@ -1,6 +1,6 @@
-width=95.4;               //width for bay
-height=14;                //height for bay
-depth=4;                  //depth (height as printed) for rim wall
+width=95.4;
+height=14; 
+depth=4;                  //height for rim wall
 
 wallthick=1;              //thickness for all walls
 
@@ -23,7 +23,8 @@ module originalrim(){
 }
 
 module baseplate(){
-  translate([0,0,-depth/2+wallthick])
+  color("blue")
+  translate([0,0,(-depth/2)+(wallthick/2)])
     cube( [height,width,wallthick], center=true );
 }
 
