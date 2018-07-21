@@ -1,4 +1,4 @@
-width=96;                 //width for bay
+width=95.4;               //width for bay
 height=14;                //height for bay
 depth=4;                  //depth (height as printed) for rim wall
 
