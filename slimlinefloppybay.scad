@@ -11,7 +11,7 @@ flangethickness=0.5;      //thickness for flange
 //clip dimensions
 clipwidth=5;
 clipthick=wallthick;       //total width for upright
-clipheight=7;              //total height
+clipheight=12;              //total height
 retainerthick=wallthick*2; //total width for overhang
 retainerheightinclip=2.5;  //total height for slope part.
 
